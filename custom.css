@@ -499,10 +499,9 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .listings .vehicles a .price-details .price,
 .listings .vehicles a .price-details .was,
 .listings .vehicles a .price-details .now{color:#790000!important;}
-.listings .search .grad.toggle{height:23px;}
 .bird_dog .detail .vehicle-desc{font-size:14px;}
-.listings .search .grad.toggle img{display:none;}
-.listings .search .grad.toggle > div{padding-left:40px;background:url(/wp-content/uploads/red-arrow.jpg) scroll no-repeat 0 0 transparent!important;height:25px;line-height:20px;}
+.listings .search .grad.toggle{height:25px;line-height:22px;}
+.listings .search .grad.toggle .toggle-icon{width:40px;height:25px;background:url(/wp-content/uploads/red-arrow.jpg) scroll no-repeat 0 0 transparent;float:left;}
 .listings .search .quick-combo-search{display:inline-block;padding:10px 0 10px 5px;text-align:left;}
 .listings .search .quick-combo-search select{font-size:11px;}
 .listings .search .quick-combo-search label{vertical-align:middle;display:inline-block;text-transform:uppercase;float:left;padding:3px 3px 0 0;}
