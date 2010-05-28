@@ -159,7 +159,7 @@ td#footer a:hover{color:#FE0000;font-weight:bold;text-decoration:none;}
 .dt-showcase .trims a{text-decoration:none;background-image:url("/wp-content/uploads/red_arrow_scroller.png");background-position:left 3px;background-repeat:no-repeat;padding-left:8px;color:#333;}
 .dt-showcase .photos{width:480px;height:250px;overflow:hidden;}
 .dt-showcase .photo{color:#999;}
-.dt-showcase .fuel-economy{margin-right:80px;margin-top:-10px;}
+.dt-showcase .fuel-economy{margin-right:80px;margin-top:-10px;background:url(/wp-content/uploads/big4-tab-hash-pattern.jpg) no-repeat scroll center top white!important;}
 .dt-showcase .photo-gallery-button{margin-left:180px;margin-top:10px;color:transparent;width:85;height:24;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
 .dt-showcase .inquiry{margin:25px;}
 .dt-showcase .inquiry label{display:block;width:4em;margin-right:5px;text-align:right;float:left;}
