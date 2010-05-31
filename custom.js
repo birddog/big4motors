@@ -814,6 +814,55 @@ jQuery(function($) {
     $('.bird_dog .detail .photos .photo').attr('rel','lightbox');
   }
   
+  /* Add social link-buttons */
+  var this_url = location;
+  var button_zone = $('.detail .link-buttons');
+
+  if ($('.detail .vehicle .model_year').length)
+    var vehicle = $('.detail .vehicle .model_year').html() + ' ' + $('.detail .vehicle .make').html() + ' ' + $('.detail .vehicle .model_description').html();
+  else
+    var vehicle = '';
+  if ($('.detail .stock-number b').length)
+    var inventory_stock_number = $('.detail .stock-number b').html().replace(/#/,'');
+  else
+    var inventory_stock_number = '';
+
+  button_zone.append('<a id="test-drive-button" href="#test-drive"><img src="/wp-content/uploads/btn-book-test-drive.jpg" /></a>');
+  button_zone.append('<a id="trade-in-button" href="#trade-in"><img src="/wp-content/uploads/btn-trade-evaluation.jpg" /></a>');
+  button_zone.append('<a id="tell-a-friend-button" href="#tell-a-friend"><img src="/wp-content/uploads/btn-send-friend.jpg" /></a>');
+  button_zone.append('<a id="calculator-button" href="#calculator"><img src="/wp-content/uploads/btn-calculate.jpg" /></a>');
+  button_zone.append('<a id="facebook-button" href="http://www.addthis.com/bookmark.php?pub=dealertrend&v=250&source=tbx-250&s=facebook&url=' + this_url + '&title=Check+out+this+vehicle&content='+ vehicle +'"><img src="/wp-content/uploads/btn-facebook.jpg" /></a>');
+  button_zone.append('<a id="twitter-button" href="http://www.addthis.com/bookmark.php?pub=dealertrend&v=250&source=tbx-250&s=twitter&url=' + this_url + '&title=Check+out+this+vehicle&content='+ vehicle +'"><img src="/wp-content/uploads/btn-twitter.jpg" /></a>');
+
+  $('.detail .link-buttons a#test-drive-button').click(function(){
+    $('.detail .tabs li a[href='+$(this).attr('href')+']').click();
+    return false;
+  });
+
+  $('.detail .link-buttons a#trade-in-button').click(function(){
+    $('.detail .tabs li a[href='+$(this).attr('href')+']').click();
+    return false;
+  });
+
+  $('.detail .link-buttons a#tell-a-friend-button').click(function(){
+    $('.detail .tabs li a[href='+$(this).attr('href')+']').click();
+    return false;
+  });
+
+  $('.detail .link-buttons a#calculator-button').click(function(){
+    $('.detail .tabs li a[href='+$(this).attr('href')+']').click();
+    return false;
+  });
+
+  $('.detail .link-buttons a#twitter-button').click(function(){
+    window.open($(this).attr('href'),'video','width=980,height=700');
+    return false;
+  });
+  $('.detail .link-buttons a#facebook-button').click(function(){
+    window.open($(this).attr('href'),'video','width=980,height=700');
+    return false;
+  });
+  
 });
 /****************************************************************************/
 
