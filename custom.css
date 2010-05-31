@@ -530,3 +530,18 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 #scNav .section.green{border:1px solid #696;}
 #scNav .section.red{border:1px solid #C00;}
 .ddsg-wrapper > div{display:none;}
+
+
+/**********************************************/
+/* Lightbox
+/**********************************************/
+#lightbox{background-color:#eee;padding:10px;border-bottom:2px solid #666;border-right:2px solid #666;border-radius:7px;-webkit-border-radius:7px;-moz-border-radius:7px;}
+#lightboxDetails,
+#lightboxDetails a{font-size:0.8em;padding-top:0.4em;color:black;}
+#lightboxCaption{float:left;}
+#keyboardMsg{float:right;}
+#closeButton{top:5px;right:5px;}
+#lightbox img{border:none;clear:both;}
+#overlay img{border:none;}
+#overlay{background-image:url(/wp-content/themes/dt-bird-dog/javascripts/lightbox/overlay.png);}
+* html #overlay{background-color:#333;back\ground-color:transparent;background-image:url(/wp-content/themes/dt-bird-dog/javascripts/lightbox/blank.gif);filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/wp-content/themes/dt-bird-dog/javascripts/lightbox/overlay.png",sizingMethod="scale");}
