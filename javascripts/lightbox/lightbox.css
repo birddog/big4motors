@@ -3,6 +3,9 @@
 	padding: 10px;
 	border-bottom: 2px solid #666;
 	border-right: 2px solid #666;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
 	}
 #lightboxDetails,
 #lightboxDetails a {
@@ -17,12 +20,12 @@
 #lightbox img{ border: none; clear: both;} 
 #overlay img{ border: none; }
 
-#overlay{ background-image: url(overlay.png); }
+#overlay{ background-image: url(/wp-content/themes/dt-bird-dog/javascripts/lightbox/overlay.png); }
 
 * html #overlay{
 	background-color: #333;
 	back\ground-color: transparent;
-	background-image: url(blank.gif);
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
+	background-image: url(/wp-content/themes/dt-bird-dog/javascripts/lightbox/blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/wp-content/themes/dt-bird-dog/javascripts/lightbox/overlay.png", sizingMethod="scale");
 	}
 	
