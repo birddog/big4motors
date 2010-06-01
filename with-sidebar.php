@@ -6,6 +6,7 @@
 // Template Name: With Sidebar
 get_header(); ?>
 
+<!-- With Sidebar Template -->
 <div id="site-content-top"></div>
 <div id="site-content">
   <div id="sidebar">

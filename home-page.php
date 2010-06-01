@@ -7,6 +7,7 @@
 
 get_header(); ?>
 
+<!-- Widget Page Template -->
 <div id="home-content-top"></div>
 <div id="home-content">
   <?php for($i=1; $i <= get_option('dt_number_of_widget_zones'); $i++) { ?>
