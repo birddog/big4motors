@@ -1304,5 +1304,4 @@ function addLoadEvent(func)
 	}
 
 }
-
 addLoadEvent(initLightbox);	// run initLightbox onLoad

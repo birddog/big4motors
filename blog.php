@@ -5,9 +5,9 @@
 */
 // Template Name: Blog
 ?>
-
 <?php get_header(); ?>
 
+<!-- Blog Template -->
 <div id="site-content-top"></div>
 <div id="site-content">
   <div class="grid_9">

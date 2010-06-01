@@ -3,9 +3,9 @@
  * @package WordPress
  * @subpackage DealerTrend Framework
  */
-
 get_header(); ?>
 
+<!-- Page Template -->
 <div id="site-content-top"></div>
 <div id="site-content">
   <div class="grid_12">
