@@ -502,6 +502,18 @@ ul#steps li {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;		
 }
+.btnsubmit {
+	background-color:rgba(121, 0, 0, 0.7);
+	color:#FFFFFF;
+	display:block;
+	font-size:12px;
+	padding:5px;
+	margin-top:5px;
+	border:1px solid #ddd;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+	
 /*.wrap{float:left;}
 .form-item{margin:0 0 5px 10px;clear:both;}
 .form-item .description{font-size:9px;color:#999;}
