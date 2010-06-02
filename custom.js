@@ -712,7 +712,7 @@ jQuery(function($) {
       var steps = $("#tradeEstimate fieldset");
       var count = steps.size();
     
-      var submitbtn = $("input[type=submit]");
+      var submitbtn = $("#tradeEstimate input[type=submit]");
       submitbtn.hide();
     
       $("#tradeEstimate").before("<ul id='steps'></ul><div class='clear'></div>");
@@ -740,8 +740,8 @@ jQuery(function($) {
 		
       });
 
-       if($(".mmf-checkbox").length) {
-         var checkboxes = $(".mmf-checkbox");
+       if($("#tradeEstimate .mmf-checkbox").length) {
+         var checkboxes = $("#tradeEstimate .mmf-checkbox");
 		checkboxes.append("<div class='clear'></div>");
        }
 
