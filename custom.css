@@ -403,7 +403,7 @@ span.wpcf7-not-valid-tip {
 	position:absolute;
 	top:0;
 	right:19px;
-	background:none repeat scroll 0 0 #E25E4C;
+	background:none repeat scroll 0 0 #E25E4C!important;
 	color:#fff;
 	font-size:11px;
 	padding:3px;
