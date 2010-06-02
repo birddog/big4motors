@@ -511,10 +511,15 @@ jQuery(function($) {
     });
   }
 
-  $('#emailWindow #close-window, .close').click(function(){
+  $('#emailWindow .close').click(function(){
     $('body #jquery-overlay').remove();
     $('#emailWindow').hide();
   });
+  
+  $(".loveHonda .close").click(function() {
+    $(this).parent().hide();
+  });
+
 
   /* New Vehicle flyout slider */
   if ($('.page-item-151').length) {
@@ -579,9 +584,6 @@ jQuery(function($) {
     }
   });
 
-  $(".close").click(function() {
-    $(this).parent().hide();
-  });
   
   /* quick find test drive */
   $(".frm-btn-new-test-drive").click(function(){
