@@ -379,7 +379,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 .partsRequest .form-group, 
 .serviceAppointment .form-group {width:250px;}
 .form .form-group br {
-	display:none;	
+	display:none!important;	
 }
 .form label {
 	display:inline-block;
