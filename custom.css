@@ -420,19 +420,19 @@ span.wpcf7-not-valid-tip {
 }
 
 div.wpcf7-mail-sent-ok {
-	background-color:#398f14;
+	background-color:#398f14!important;
 }
 
 div.wpcf7-mail-sent-ng {
-	background-color:#ff0000;
+	background-color:#ff0000!important;
 }
 
 div.wpcf7-spam-blocked {
-	background-color:#ffa500;
+	background-color:#ffa500!important;
 }
 
 div.wpcf7-validation-errors {
-	background-color:#f7e700;
+	background-color:#f7e700!important;
 }
 .wpcf7-display-none {
 	display: none;
