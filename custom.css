@@ -344,7 +344,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
-.form p {margin:0;}
+.form p {margin:0 0 5px;}
 .form fieldset {     	
 	padding:10px;
 	border:1px solid #ddd;
