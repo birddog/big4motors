@@ -333,7 +333,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 .contactus{width:658px;}
 .contactusSmall {width:325px;}
 .tradein, .tireRequest, 
-.partsRequest, .serviceAppointment, .collisionCenter{width:778px;}
+.partsRequest, .serviceAppointment, .collisionCenter{width:768px;}
 
 /* default style */
 .form {
