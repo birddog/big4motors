@@ -378,7 +378,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 }
 .contactusSmall .form-group {width:300px;}
 .partsRequest .form-group, 
-.serviceAppointment .form-group {width:250px;}
+.serviceAppointment .form-group {width:240px;}
 .form .form-group br {
 	display:none!important;	
 }
@@ -387,7 +387,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 	width:	150px;
 	text-align:right;
 	font-weight:bold;
-	font-size:11px;
+	font-size:10px;
 	vertical-align:middle;
 }
 .contactus label {width:100px;}
