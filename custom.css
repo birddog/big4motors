@@ -400,15 +400,15 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 
 /* form validation */
 span.wpcf7-not-valid-tip {
-	position:absolute;
-	top:0;
-	right:19px;
+	position:absolute!important;
+	top:0!important;
+	right:19px!important;
 	background:none repeat scroll 0 0 #E25E4C!important;
 	color:#fff;
-	font-size:11px;
-	padding:3px;
-	z-index:100;
-	width:137px;
+	font-size:11px!important;
+	padding:3px!important;
+	z-index:100!important;
+	width:137px!important;
 }
 .wpcf7-response-output {
 	margin-top:10px;
