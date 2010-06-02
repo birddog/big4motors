@@ -344,7 +344,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
-.form p {margin:0 0 5px;}
+.form p {margin:0 0 5px;color:#222;}
 .form fieldset {     	
 	padding:10px;
 	border:1px solid #ddd;
@@ -352,7 +352,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
-.form fieldset fieldset {background-color:#aaa;}
+.form fieldset fieldset {background-color:#fff;}
 .form fieldset legend {
 	background-color:#fff;	
 	color:#790000;
