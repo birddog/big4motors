@@ -331,9 +331,9 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 /* form names */
 .preownedtestdrive, .newtestdrive,
 .contactus{width:658px;}
-.contactusSmall {width:325px;}
+.contactusSmall, .collisionCenter {width:325px;}
 .tradein, .tireRequest, 
-.partsRequest, .serviceAppointment, .collisionCenter{width:768px;}
+.partsRequest, .serviceAppointment{width:768px;}
 
 /* default style */
 .form {
