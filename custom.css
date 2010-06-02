@@ -331,7 +331,8 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 /* form names */
 .preownedtestdrive, .newtestdrive,
 .contactus{width:658px;}
-.contactusSmall, .collisionCenter {width:325px;}
+.contactusSmall {width:325px;}
+.collisionCenter {width:390px;}
 .tradein, .tireRequest, 
 .partsRequest, .serviceAppointment{width:768px;}
 
@@ -390,6 +391,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 	font-size:10px;
 	vertical-align:middle;
 }
+.collisionCenter label {width:110px;}
 .contactus label {width:100px;}
 .contactusSmall label, .staffEmail label, 
 .partsRequest label, .serviceAppointment label {width:90px;}
