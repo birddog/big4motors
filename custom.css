@@ -338,6 +338,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 
 /* default style */
 .form {
+	position:relative;
 	background-color:#f4f4f4;
 	border:1px solid #ddd;
 	padding:0 10px 10px;
