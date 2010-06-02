@@ -498,7 +498,7 @@ jQuery(function($) {
         $('#emailWindow #staff-email').attr('value', email);
         $('body').append('<div id="jquery-overlay"></div>');
         $('#jquery-overlay').css({zIndex:200,background:'black',opacity:0.85,height:$(document).height()}).fadeIn();
-        $('#emailWindow').show().fadeIn();
+        $('#emailWindow').center().show().fadeIn();
         $('div#jquery-overlay').click(function(){
           $('body #jquery-overlay').remove();
           $('#emailWindow').hide();
