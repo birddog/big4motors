@@ -354,7 +354,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
-.form fieldset fieldset {background-color:#fff;}
+.form fieldset fieldset {background-color:#fff;padding-bottom:10px;}
 .form fieldset legend {
 	background-color:#fff;	
 	color:#790000;
