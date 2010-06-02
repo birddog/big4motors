@@ -8,10 +8,8 @@ get_header(); ?>
 <!-- Index -->
 <div id="site-content-top"></div>
 <div id="site-content">
-  <div class="grid_3">
-    <div id="side-bar">
-      <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("side-bar") ) : ?><?php endif; ?>
-    </div>
+  <div id="sidebar">
+    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("sidebar") ) : ?><?php endif; ?>
   </div>
   <div class="grid_9">
     <?php if (have_posts()) : ?>
