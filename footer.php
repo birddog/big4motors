@@ -6,7 +6,7 @@
 
       <div class="clear"></div>
 
-      <div id="footer">
+      <div id="dt-footer">
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer-left") ) : ?><?php endif; ?>
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer-middle") ) : ?><?php endif; ?>
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("footer-right") ) : ?><?php endif; ?>

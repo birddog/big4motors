@@ -24,26 +24,26 @@ hr{border:0;color:#999;background-color:#999;height:1px;width:100%;text-align:le
 **************************************/
 #website{background-color:#fff;}
 #website .page{padding:10px 0 0;}
-#header{padding:0;}
-#header #header-zones{background-image:url(/wp-content/uploads/2010/03/header-bg.png);background-repeat:no-repeat;border-bottom:1px solid #999;height:77px;}
-#header a:hover{text-decoration:none!important;}
-#header #logo{font-weight:bold;font-size:12px;}
-#header #logo img{vertical-align:middle;}
-#header #address{color:#999;text-align:right;padding-top:5px;}
-#header #phone-numbers{color:#999;text-align:right;padding-top:5px;}
-#header #phone-numbers table{width:100%;}
-#header #phone-numbers table td{text-align:right;}
-#header #phone-numbers strong{font:bold 11pt;color:#790000;}
+#dt-header{padding:0;}
+#dt-header #header-zones{background-image:url(/wp-content/uploads/2010/03/header-bg.png);background-repeat:no-repeat;border-bottom:1px solid #999;height:77px;}
+#dt-header a:hover{text-decoration:none!important;}
+#dt-header #logo{font-weight:bold;font-size:12px;}
+#dt-header #logo img{vertical-align:middle;}
+#dt-header #address{color:#999;text-align:right;padding-top:5px;}
+#dt-header #phone-numbers{color:#999;text-align:right;padding-top:5px;}
+#dt-header #phone-numbers table{width:100%;}
+#dt-header #phone-numbers table td{text-align:right;}
+#dt-header #phone-numbers strong{font:bold 11pt;color:#790000;}
 #site-content{margin:0;}
 body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 #home-1.widget-zones{margin:0;}
 #contact-us-page{padding:50px;}
 .entry{padding:0 0 10px;border-bottom:1px solid #999;margin-bottom:5px;}
 #sidebar div{margin:8px 5px 0px;}
-#footer{padding:5px 0 0;margin:0 0 10px;background:#DCDBE0 url(/wp-content/uploads/2010/03/footer-background.jpg) repeat-x;height:auto;}
-#footer #quick-find-button{font-weight:bold;}
-#footer #logos{display:none;}
-#footer .nav{display:none;}
+#dt-footer{padding:5px 0 0;margin:0 0 10px;background:#DCDBE0 url(/wp-content/uploads/2010/03/footer-background.jpg) repeat-x;height:auto;}
+#dt-footer #quick-find-button{font-weight:bold;}
+#dt-footer #logos{display:none;}
+#dt-footer .nav{display:none;}
 #breakout-footer{}
 #breakout-footer .grid_12{display:block;float:none;width:100%;margin:0;}
 

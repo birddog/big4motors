@@ -16,7 +16,7 @@
   <body <?php body_class(); ?>>
     <div id="website" class="container_12">
 
-      <div id="header">
+      <div id="dt-header">
         <div id="header-text"><a href="/"><?php dt_header(); ?></a></div>
         <div id="header-zones">
           <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("header") ) : ?><?php endif; ?>
