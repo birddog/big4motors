@@ -1,26 +1,23 @@
 /******************************************/
 /*		IE fixes for forms								 */
 /******************************************/
-* html fieldset, 
-*+html fieldset{position:relative!important;padding:35px 10px 10px!important;background-color:#f4f4f4!important;}
-* html fieldset legend, 
-*+html fieldset legend {position:absolute; top:-1px;border-top:1px solid #ddd!important;}
+fieldset{position:relative!important;padding:35px 10px 10px!important;background-color:#f4f4f4!important;}
+fieldset legend {position:absolute; top:-1px;border-top:1px solid #ddd!important;}
 
-* html .preownedtestdrive .txt-area, *+html .preownedtestdrive .txt-area, 
-* html .newtestdrive .txt-area, *+html .newtestdrive .txt-area,
-* html .contactus .txt-area, *+html .contactus .txt-area {width:605px;}
-* html .contactusSmall .txt-area, *+html .contactusSmall .txt-area  {width:290px;}
-* html .staffEmail .txtarea, *+html .staffEmail .txtarea {width:310px;}
+.preownedtestdrive .txt-area, 
+.newtestdrive .txt-area,
+.contactus .txt-area {width:605px;}
+.contactusSmall .txt-area {width:290px;}
+.staffEmail .txtarea {width:310px;}
 
-* html .form-group, *+html .form-group {width:auto!important;}
-* html select, *+html select  {width:150px!important;margin-right:12px!important;}
+.form-group {width:auto!important;}
+select {width:150px!important;margin-right:12px!important;}
 
-* html #tradeEstimate .next, *+html #tradeEstimate .next, 
-* html #tradeEstimate .prev, *+html #tradeEstimate .prev {background-color:#555;color:#fff;}
-* html #step-5 .form-group, *+html #step-5 .form-group {width:350px;}
-* html #step-5 .form-group label, *+html #step-5 .form-group label{width:350px;}
-* html #step-5 .form-group textarea, *+html #step-5 .form-group textarea{width:320px;}
-* html .btnsubmit , *+html .btnsubmit {
+#tradeEstimate .next, #tradeEstimate .prev {background-color:#555;color:#fff;}
+#step-5 .form-group {width:350px;}
+#step-5 .form-group label{width:350px;}
+#step-5 .form-group textarea{width:320px;}
+.btnsubmit {
 	background-color:#790000;
 	color:#FFFFFF;
 	display:block;
