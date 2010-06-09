@@ -246,9 +246,9 @@ hr.blue{border-bottom:1px solid #790000;}
 #showcase-flyout .prev.disabled,
 #showcase-flyout .next.disabled{opacity:0.5;}
 #showcase-flyout .showcase-pane{border:none;padding:0;margin:0;}
-/*#showcase-flyout .showcase-pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
+#showcase-flyout .showcase-pane .items{position:relative;display:block;clear:both;overflow:hidden;width:30000em;height:100px;padding:0;margin:0 15px;border:none;}
 #showcase-flyout .showcase-pane .items .vehicle{position:relative;float:left;width:163px;text-align:center;}
-#showcase-flyout .showcase-pane .items .vehicle .trims{width:180px;position:relative;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:190;text-align:left;}
+/*#showcase-flyout .showcase-pane .items .vehicle .trims{width:180px;position:relative;top:10px!important;border:solid 1px #999;background:#eee;border-radius:7px;padding:10px;z-index:190;text-align:left;}
 #showcase-flyout .showcase-pane .items .vehicle .trims a{}*/
 #showcase-flyout .name,
 .showcase-slider .name,
