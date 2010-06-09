@@ -753,7 +753,7 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/big4-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/big4-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .fuel_economy{background:url(/wp-content/uploads/big4-tab-hash-pattern.jpg) no-repeat scroll center top white!important;}
-input.go-button {width:23px;height:21px;background: #222 url(/wp-content/uploads/GoButton.png) no-repeat top left;border:none;color:transparent;text-indent:-100px;}
+input.go-button {display:none;width:23px;height:21px;background: #222 url(/wp-content/uploads/GoButton.png) no-repeat top left;border:none;color:transparent;text-indent:-100px;}
 
 /**********************************************/
 /* Service Contract
