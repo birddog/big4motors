@@ -739,7 +739,7 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .listings .vehicles a .vehicle-desc,
 .listings .vehicles a .price-details .price,
 .listings .vehicles a .price-details .was,
-.listings .vehicles a .price-details .now{color:#790000!important;}
+.listings .vehicles a .price-details .now{color:#790000!important;font-size:12px;}
 .bird_dog .detail .vehicle-desc{font-size:14px;}
 .listings .search .grad.toggle{height:25px;line-height:22px;}
 .listings .search .grad.toggle .toggle-icon{width:40px;height:25px;background:url(/wp-content/uploads/red-arrow.jpg) scroll no-repeat 0 0 transparent;float:left;}
@@ -753,7 +753,7 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 .bird_dog .detail .thumbnails .next{background:url(/wp-content/uploads/big4-thumbnails-end.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .thumbnails .prev{background:url(/wp-content/uploads/big4-thumbnails-begin.jpg) no-repeat scroll 0 0 transparent!important;}
 .bird_dog .detail .fuel_economy{background:url(/wp-content/uploads/big4-tab-hash-pattern.jpg) no-repeat scroll center top white!important;}
-input.go-button {display:none;width:23px;height:21px;background: #222 url(/wp-content/uploads/GoButton.png) no-repeat top left;border:none;color:transparent;text-indent:-100px;}
+.listings .search .go-button {display:none;}
 
 /**********************************************/
 /* Service Contract
