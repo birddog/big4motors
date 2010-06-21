@@ -171,8 +171,10 @@ td#footer a:hover{color:#FE0000;font-weight:bold;text-decoration:none;}
 .dt-showcase .multiselect .item:active{background:#ccc;}
 .dt-showcase .options{font-weight:bold;color:#009;}
 .dt-showcase .options li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:999;font-weight:normal;}
+.dt-showcase .options li:before{content:'\2022 ';}
 .dt-showcase .equipment{font-weight:bold;color:#009;}
 .dt-showcase .equipment li{float:left;width:40%;display:inline-block;margin:0 0 0 10px;color:999;font-weight:normal;}
+.dt-showcase .equipment li:before{content:'\2022 ';}
 #quick-find{color:#999;background-color:white;padding:3px 5px 0 5px;font:normal 9pt arial;height:26px;margin-top:10px;border:solid 1px #aaa;-webkit-border-top-left-radius:7px;-moz-border-radius:7px 0 0 0;-webkit-box-shadow:1px 1px 3px #888;}
 #quick-find td img{vertical-align:middle;}
 #quick-find table{width:100%;margin:0;padding:0;}
