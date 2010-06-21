@@ -647,7 +647,7 @@ td.emailRight{text-align:right !important;padding-right:5px;}
 ./*dt-showcase .vehicle{display:inline-block;position:relative;margin:5px!important;text-align:center;background:white;}
 .dt-showcase .vehicle .trims,
 .showcase-flyout .showcase-pane .vehicle .trims{display:none;position:absolute;top:5px;width:180px;-webkit-column-count:2;-moz-column-count:2;}*/
-.dt-showcase .photo-gallery-button{margin-left:180px;margin-top:10px;color:transparent;width:85;height:24;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
+.dt-showcase .photo-gallery-button{margin-left:180px;margin-top:10px;color:transparent;text-indent:-100px;width:85;height:24;cursor:pointer;border:none;background:url(/wp-content/uploads/IMAGE-GALLERY.jpg) no-repeat top left;}
 body.page-id-43 #site-content > .grid_10{margin-left:0;}/* margin fix */ 
 body.page-id-43 .dt-showcase{width:800px;margin:0 auto;}/* width fix */ 
 body.page-id-43 .entry > p{display:none;}/* empty paragraph tag removal */
