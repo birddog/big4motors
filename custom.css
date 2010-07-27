@@ -234,7 +234,7 @@ hr.blue{border-bottom:1px solid #790000;}
 .showcase-slider .scrollable .next{float:right;margin-top:-90px;background:url('/wp-content/uploads/2010/02/small-gray-arrow-2.jpg') no-repeat center center;-webkit-border-bottom-right-radius:10px!important;-moz-border-radius-bottomright:10px!important;}
 
 /* Showcase Flyout style */
-#showcase-flyout{overflow:hidden;width:840px;height:115px;z-index:100;border:1px solid #999;border-top:0;background:#fff;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;-webkit-box-shadow:1px 1px 3px #888;box-shadow:2px 2px 10px #666;-webkit-box-shadow:2px 2px 10px #666;-moz-box-shadow:2px 2px 10px #666;}
+#showcase-flyout{overflow:hidden;width:840px;height:115px;z-index:10000;border:1px solid #999;border-top:0;background:#fff;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;-webkit-box-shadow:1px 1px 3px #888;box-shadow:2px 2px 10px #666;-webkit-box-shadow:2px 2px 10px #666;-moz-box-shadow:2px 2px 10px #666;}
 #showcase-flyout .showcase-tabs{position:relative;height:19px;background:#f1f1f1;color:white;text-align:left;border-color:#eee;overflow:hidden;}
 #showcase-flyout .showcase-tabs{display:block;text-align:left;padding:0;margin:0;list-style:none;}/* not applied from the looks of it ul.tabs li seems to be the formatt but looking for .tabs ul */
 #showcase-flyout .showcase-tabs li{text-align:center;left:110px;float:none;display:inline-block;padding:0;margin:0;list-style:none;}
