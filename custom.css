@@ -19,7 +19,7 @@ ul,ol{color:#999;}
 td li{text-align:left;}
 hr{border:0;color:#999;background-color:#999;height:1px;width:100%;text-align:left;}
 .top{vertical-align:text-top;}
-
+img {background:url(/wp-content/uploads/ajax-loader1.gif) scroll 50% 50% #ffffff;}
 /**************************************
 * General Layout Regions
 **************************************/
