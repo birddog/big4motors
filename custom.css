@@ -442,7 +442,7 @@ select,input,textarea,input[type="checkbox"]{font-size:11px;background-color:#ff
 .preownedtestdrive textarea, .newtestdrive textarea,
 .contactus textarea{width:600px;}
 .partsRequest textarea, .contactFinance textarea, .contactFleet textarea { width:705px;}
-.collisionCenter textarea {360px;}
+.collisionCenter textarea {width:360px;}
 
 /* form validation */
 span.wpcf7-not-valid-tip {
@@ -628,8 +628,9 @@ body.page-id-206 #site-content > .grid_12 > #post-206{padding:0 0 0 10px;}
 .clear{clear:both;height:0;}
 
 /**************************************
-* OTHER ?!??!#HR!@)#*
+* ???
 **************************************/
+#emailWindow{display:none;position:absolute;z-index:500;width:360px;height:340px;padding:10px;}
 .emailform .header{display:none!important;}
 .emailform form{border:none!important;background:white!important;}
 .emailform form table td{border:none!important;background:white!important;}
@@ -644,9 +645,7 @@ td.emailRight{text-align:right !important;padding-right:5px;}
 /**************************************
 * Email Window
 **************************************/
-#emailWindow{display:none;position:absolute;z-index:500;width:360px;height:340px;padding:10px;}
-#emailWindow .staff-name{display:none;}
-#emailWindow .staff-email{display:none;}
+
 .combo-search .combo{width:90px!important;}
 /* Showcase */
 ./*dt-showcase .vehicle{display:inline-block;position:relative;margin:5px!important;text-align:center;background:white;}
@@ -686,17 +685,18 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 /**************************************
 * Bios'
 **************************************/
-.staff{width:720px;}
+.staff{}
 .staff .person{
 	position:relative;
 	float:left;
 	width:230px;
+	height:116px;
 	font:normal 11px arial;
 	color:#999;
 	background:url(http://www.woodridgeford.com/wp-content/uploads/2010/03/bioBg2.jpg) no-repeat;
 	margin:5px 5px 30px;
 }
-.staff .person .photo{float:left;margin-right:10px;padding:0;}
+.staff .person .photo{float:left;margin-right:10px;padding:0;height:100px;width:93px;}
 .staff .person .name{font-size:14px;}
 .staff .person .title{font-size:11px;}
 .staff .person .phone{font-size:13px;color:#790000;}
@@ -708,7 +708,7 @@ body.page-id-43 .dt-showcase .detail .showcase-tabs{left:-1px;}
 	font-size:11px;
 	color:#999;
 	background-color:#fff;
-	z-index:900;
+	z-index:1000;
 	padding:5px;
 	width:200px;
 	box-shadow: 2px 2px 2px #222;
