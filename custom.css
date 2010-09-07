@@ -68,17 +68,17 @@ body.page-parent #home-content{}
 #menubar #menu-item-3863 a{background-position:right top;width:109px;}
 
 
-/*#menubar .nav li.page-item-149 a{background-position:left 0;width:65px;padding-left:11px;}*/
-/*#menubar .nav li.page-item-151 a{background-position:-182px  0;width:130px;}*/
-/*#menubar .nav li.page-item-153 a{background-position:-182px 0;width:175px;}*/
-/*#menubar .nav li.page-item-155 a{background-position:-182px  0;width:140px}*/
-/*#menubar .nav li.page-item-157 a{background-position:-182px  0;width:140px;}*/
-/*#menubar .nav li.page-item-159 a{background-position:-182px  0;width:140px}*/
-/*#menubar .nav li.page-item-165 a{*/
-/*	background-position:right top;*/
-/*	width:110px;*/
-/*	padding:6px 0 0 14px;*/
-/*}*/
+#menubar .nav li.page-item-149 a{background-position:left 0;width:65px;padding-left:11px;}
+#menubar .nav li.page-item-151 a{background-position:-182px  0;width:130px;}
+#menubar .nav li.page-item-153 a{background-position:-182px 0;width:175px;}
+#menubar .nav li.page-item-155 a{background-position:-182px  0;width:140px}
+#menubar .nav li.page-item-157 a{background-position:-182px  0;width:140px;}
+#menubar .nav li.page-item-159 a{background-position:-182px  0;width:140px}
+#menubar .nav li.page-item-165 a{
+	background-position:right top;
+	width:110px;
+	padding:6px 0 0 14px;
+}
 
 #menubar #menu-navigation >li >a:hover{color:#fff; background-position:-182px bottom}
 #menubar #menu-item-3856 >a:hover{background-position:left bottom!important}
