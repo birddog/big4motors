@@ -31,17 +31,4 @@
             wp_nav_menu(array('sort_column' => 'menu_order', 'container_class' => 'nav') );
           ?>
       </div>
-
-      <div class="clear"></div>
-
-      <div id="submenu" class="subnav">
-        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("submenu") ) : ?><?php endif; ?>
-      </div>
-
-      <div class="clear"></div>
-
-      <div id="top-banner-ad">
-        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("top-banner-ad") ) : ?><?php endif; ?>
-      </div>
-
       <div class="clear"></div>
