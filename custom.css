@@ -155,7 +155,7 @@ body.page-parent #home-content{}
 /**************************************
 * Slideshow Widget
 **************************************/
-.slideshowwidget{width:960px;height:350px!important;margin-left:-10px;background:#fff;position:relative;z-index:500;overflow:hidden;}/* set all but first banner hidden */
+.slideshowwidget{width:960px;height:350px!important;margin-left:-10px;background:#fff;position:relative;z-index:490;overflow:hidden;}/* set all but first banner hidden */
 .slideshowwidget img:first-child{display:block;opacity:1;}
 .slideshowwidget img{display:none;opacity:0;}
 .slideshowwidget .slideshowwidget-prev,
