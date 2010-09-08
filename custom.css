@@ -112,7 +112,7 @@ body.page-parent #home-content{}
 /**************************************
 * Footer
 **************************************/
-#footer-bottom {background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff;}
+#footer-bottom {background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff;border-top:1px solid #ccc;}
 #footer-bottom a{
 	color:#555;
 	font-weight:bold;
@@ -123,7 +123,6 @@ body.page-parent #home-content{}
 }
 #footer-bottom .footer-row {
 	height:170px;
-	border:1px solid #ccc;
 	overflow:hidden;
 }
 #footer-bottom .footer-row div {margin:0 0 0 10px;padding:10px 0 10px 10px;height:157px;border-left:1px solid #ccc;}
@@ -144,10 +143,10 @@ body.page-parent #home-content{}
 	border-top:1px solid #ccc;	
 }
 #footer-bottom #dealership-links {
-		border-top:1px solid #ccc;
-		text-align:center;
-		padding:15px 0;
-		font-size:12px;
+	border-top:1px solid #ccc;
+	text-align:center;
+	padding:15px 0;
+	font-size:12px;
 }
 
 /**************************************
