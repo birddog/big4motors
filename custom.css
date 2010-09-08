@@ -112,7 +112,7 @@ body.page-parent #home-content{}
 /**************************************
 * Footer
 **************************************/
-#footer-bottom {}
+#footer-bottom {background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff;}
 #footer-bottom a{
 	color:#555;
 	font-weight:bold;
@@ -122,8 +122,7 @@ body.page-parent #home-content{}
 	color:#790000;
 }
 #footer-bottom .footer-row {
-	background:url(/wp-content/uploads/footer-bottom-background.gif) repeat-x 0 bottom #fff;	
-	height:167px;
+	height:170px;
 	border:1px solid #ccc;
 	overflow:hidden;
 }
