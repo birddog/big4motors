@@ -38,7 +38,7 @@ img,
 #dt-header #phone-numbers{color:#999;text-align:right;padding-top:5px;}
 #dt-header #phone-numbers table{width:100%;}
 #dt-header #phone-numbers table td{text-align:right;}
-#dt-header #phone-numbers strong{font:bold 11pt;color:#790000;}
+#dt-header #phone-numbers strong{font:inherit;color:#790000;}
 #site-content{margin:0;position:relative;}
 body.page-parent #home-content{}
 #home-1.widget-zones{margin:0;}
